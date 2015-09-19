@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="drag_handle" type="id"/>
+    <item name="click_remove" type="id"/>
+    <item id="0x7e06001c" name="aui_slide_in_from_bottom" type="anim"/>
+    <item id="0x7e06001d" name="aui_slide_in_from_left" type="anim"/>
+    <item id="0x7e06001e" name="aui_slide_in_from_right" type="anim"/>
+    <item id="0x7e06001f" name="aui_slide_in_from_top" type="anim"/>
+    <item id="0x7e060020" name="aui_slide_out_to_bottom" type="anim"/>
+    <item id="0x7e060021" name="aui_slide_out_to_left" type="anim"/>
+    <item id="0x7e060022" name="aui_slide_out_to_right" type="anim"/>
+    <item id="0x7e060023" name="aui_slide_out_to_top" type="anim"/>
+
+</resources>

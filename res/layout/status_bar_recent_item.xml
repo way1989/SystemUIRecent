@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="400dp"
+    android:clipChildren="false"
+    android:importantForAccessibility="no"
+    android:paddingLeft="@dimen/status_bar_recents_item_padding"
+    android:paddingRight="@dimen/status_bar_recents_item_padding" >
+
+    <RelativeLayout
+        android:id="@+id/recent_item"
+        android:layout_width="wrap_content"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/app_icon"
+            android:layout_width="@dimen/workspace_cell_width"
+            android:layout_height="@dimen/workspace_cell_height"
+            android:layout_centerHorizontal="true"
+            android:clickable="true"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/recent_item_lock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/app_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="4dp"
+            android:src="@drawable/bashboard_lock_normal"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+</FrameLayout>

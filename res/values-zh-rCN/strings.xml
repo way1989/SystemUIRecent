@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+/**
+ * Copyright (c) 2009, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License"); 
+ * you may not use this file except in compliance with the License. 
+ * You may obtain a copy of the License at 
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0 
+ *
+ * Unless required by applicable law or agreed to in writing, software 
+ * distributed under the License is distributed on an "AS IS" BASIS, 
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. 
+ * See the License for the specific language governing permissions and 
+ * limitations under the License.
+ */
+ -->
+
+<resources xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="notificationTitle">通知</string>
+    <string name="noNotificationTitle">暂无通知</string>
+
+    <string name="twelve_hour_time_format">a h:mm</string>
+    <string name="twenty_four_hour_time_format">H:mm</string>
+    
+    
+    <string name="battery_low_title_ali">"﻿电量提醒"</string>
+    
+    <string name="battery_low_percent_format_ali">电池电量低于20%</string>
+    <string name="battery_very_low_percent_format_ali">电池电量低于10%</string>
+    
+    <!-- add by lulei for quick setting icon start-->
+    <string name="accelerate">一键加速</string>
+    <string name="mobileData">移动网络</string>
+    <string name="wifi">WLAN</string>
+    <string name="location">GPS</string>
+    <string name="airplane_mode">飞行模式</string>
+    <string name="ring_mode">响铃</string>
+    <string name="silent_mode">静音</string>
+    <string name="vibrate_mode">振动</string>
+    <string name="auto_rotate">屏幕旋转</string>
+    <string name="brightness">亮度</string>
+    <string name="power_saving">省电模式</string>
+    <string name="bluetooth">蓝牙</string>
+    <string name="setting">更多</string>
+    <!--  add by lulei for quick setting icon end -->
+    
+    
+    
+    <string name="app_label" msgid="7164937344850004466">"系统用户界面"</string>
+    <string name="status_bar_recent_remove_item_title" msgid="6026395868129852968">"从列表中删除"</string>
+    <string name="status_bar_recent_inspect_item_title" msgid="7793624864528818569">"应用程序信息"</string>
+    <string name="status_bar_no_recent_apps" msgid="6576392951053994640">"最近没有运行任何任务"</string>
+  <plurals name="status_bar_accessibility_recent_apps">
+    <item quantity="one" msgid="5854176083865845541">"1 个最近运行的应用程序"</item>
+    <item quantity="other" msgid="1040784359794890744">"%d 个最近运行的应用程序"</item>
+  </plurals>
+    <string name="invalid_charger" msgid="4549105996740522523">"不支持 USB 充电功能。"\n"只能使用随附的充电器充电。"</string>
+    <string name="bluetooth_tethered" msgid="7094101612161133267">"已通过蓝牙共享网络"</string>
+    <string name="screenshot_saving_ticker" msgid="7403652894056693515">"正在保存屏幕截图..."</string>
+    <string name="screenshot_saving_title" msgid="8242282144535555697">"正在保存屏幕截图..."</string>
+    <string name="screenshot_saving_text" msgid="2419718443411738818">"正在保存屏幕截图。"</string>
+    <string name="screenshot_saved_title" msgid="6461865960961414961">"已捕获屏幕截图。"</string>
+    <string name="screenshot_saved_text" msgid="1152839647677558815">"触摸可查看您的屏幕截图。"</string>
+    <string name="screenshot_failed_title" msgid="705781116746922771">"无法捕获屏幕截图。"</string>
+    <string name="screenshot_failed_text" msgid="8134011269572415402">"无法保存屏幕截图。存储设备可能正在使用中。"</string>
+    <string name="accessibility_back" msgid="567011538994429120">"返回"</string>
+    <string name="accessibility_home" msgid="8217216074895377641">"主屏幕"</string>
+    <string name="accessibility_menu" msgid="316839303324695949">"菜单"</string>
+    <string name="accessibility_bluetooth_connected" msgid="2707027633242983370">"蓝牙已连接。"</string>
+    <string name="accessibility_bluetooth_disconnected" msgid="7416648669976870175">"蓝牙连接已断开。"</string>
+    <string name="accessibility_no_phone" msgid="4894708937052611281">"没有手机信号。"</string>
+    <string name="accessibility_phone_one_bar" msgid="687699278132664115">"手机信号强度为一格。"</string>
+    <string name="accessibility_phone_two_bars" msgid="8384905382804815201">"手机信号强度为两格。"</string>
+    <string name="accessibility_phone_three_bars" msgid="8521904843919971885">"手机信号强度为三格。"</string>
+    <string name="accessibility_phone_signal_full" msgid="6471834868580757898">"手机信号满格。"</string>
+    <string name="accessibility_no_data" msgid="4791966295096867555">"没有数据网络信号。"</string>
+    <string name="accessibility_data_one_bar" msgid="1415625833238273628">"数据信号强度为一格。"</string>
+    <string name="accessibility_data_two_bars" msgid="6166018492360432091">"数据信号强度为两格。"</string>
+    <string name="accessibility_data_three_bars" msgid="9167670452395038520">"数据信号强度为三格。"</string>
+    <string name="accessibility_data_signal_full" msgid="2708384608124519369">"数据信号满格。"</string>
+    <string name="accessibility_no_wifi" msgid="7455607460517331976">"没有 Wi-Fi 信号。"</string>
+    <string name="accessibility_wifi_one_bar" msgid="6854947280074467207">"Wi-Fi 信号强度为 1 格。"</string>
+    <string name="accessibility_wifi_two_bars" msgid="3344340012058984348">"Wi-Fi 信号强度为 2 格。"</string>
+    <string name="accessibility_wifi_three_bars" msgid="928322805193265041">"Wi-Fi 信号强度为 3 格。"</string>
+    <string name="accessibility_wifi_signal_full" msgid="1275764416228473932">"WiFi 信号满格。"</string>
+    <string name="accessibility_no_wimax" msgid="4329180129727630368">"无 WiMAX 信号。"</string>
+    <string name="accessibility_wimax_one_bar" msgid="4170994299011863648">"WiMAX 信号强度为一格。"</string>
+    <string name="accessibility_wimax_two_bars" msgid="9176236858336502288">"WiMAX 信号强度为两格。"</string>
+    <string name="accessibility_wimax_three_bars" msgid="6116551636752103927">"WiMAX 信号强度为三格。"</string>
+    <string name="accessibility_wimax_signal_full" msgid="2768089986795579558">"WiMAX 信号满格。"</string>
+    <string name="accessibility_data_connection_gprs" msgid="1606477224486747751">"GPRS"</string>
+    <string name="accessibility_data_connection_3g" msgid="8628562305003568260">"3G"</string>
+    <string name="accessibility_data_connection_3.5g" msgid="8664845609981692001">"3.5G"</string>
+    <string name="accessibility_data_connection_4g" msgid="7741000750630089612">"4G"</string>
+    <string name="accessibility_data_connection_cdma" msgid="6132648193978823023">"CDMA"</string>
+    <string name="accessibility_data_connection_edge" msgid="4477457051631979278">"EDGE"</string>
+    <string name="accessibility_bluetooth_tether" msgid="4102784498140271969">"蓝牙共享网络。"</string>
+    <string name="accessibility_airplane_mode" msgid="834748999790763092">"飞行模式。"</string>
+    <!-- String.format failed for translation -->
+    <!-- no translation found for accessibility_battery_level (7451474187113371965) -->
+    <skip />
+    <string name="accessibility_recents_item_dismissed" msgid="6803574935084867070">"已删除%1$s"</string>
+    <string name="status_bar_settings_signal_meter_disconnected" msgid="1940231521274147771">"未连接互联网"</string>
+    <string name="status_bar_settings_signal_meter_wifi_nossid" msgid="6557486452774597820">"Wi-Fi 已连接"</string>
+    <string name="status_bar_settings_signal_ethernet_connected" >"以太网 已连接"</string>
+    <string name="cancel">取消</string>
+    <string name="entry_power_save">"设置"</string>
+   <string name="open_power_save_mode">"是否设置为省电模式？"</string>
+   
+   <!-- notification row -->
+    <string name="shieldNotificationText">屏蔽通知</string>
+    <string name="blackListText">加入黑名单</string>
+    <string name="shieldApplicationText">已屏蔽来自%1$s的通知</string>
+    <string name="addBlackListText">已拦截来自%1$s的短信</string>
+   
+   <!-- Notification setting -->
+    <string name="progress_scanning">加载中</string>
+    <string name="notification_setting">通知栏设置</string>
+    <string name="cloudapp_push_service">云OS系统通知</string>
+    <string name="cloudapp_push_setting">云推送设置</string>
+    <string name="allowed_notification_setting">允许显示通知</string>
+    <string name="disallowed_notification_setting">不允许显示通知</string>
+    <!-- recents app -->
+    <string name="recent_task">开启任务</string>
+    <string name="recent_task_current_mem_label">占用内存</string>
+    <string name="recent_task_delete_app_text">向上拖拽图标结束任务</string>
+
+    <string name="usb_button_text">已开启U盘模式.</string>
+    <string name="usb_button_text_close">关闭</string>
+    
+    <string name="screen_shot" >"截屏"</string>
+    <string name="flash_light" >"手电筒"</string>
+    <string name="qr_code" >"二维码"</string>
+    <string name="shut_down" >"关机"</string>
+    <string name="reboot" >"重启"</string>
+    <string name="lock_screen" >"锁屏"</string>
+    
+    <string name="data_plan" >"流量套餐"</string>
+    <string name="data_plan_unit" >"MB"</string>
+    <string name="used_data" >"已使用"</string>
+    <string name="left_data" >"剩余可用"</string>
+    <string name="data_used" >"已用流量"</string>
+    <string name="mobile_data_pannel_meal_prompt" >"设置流量套餐"</string>
+    
+    <string name="quick_setting_title">"快捷开关"</string>
+    <string name="aui_usb_disk_mode_cannot_capture_screen">"U盘模式下无法截屏"</string>
+    <string name="aui_no_space_cannot_capture_screen">存储空间不足，无法截屏</string>
+  <string name="aui_no_sd_cannot_capture_screen">未插入SD卡，无法截屏</string>
+  <string name="aui_save_info_capture_screen">截图已保存至相册</string>
+
+    <string name="usb_device_permission_prompt" msgid="834698001271562057">"允许应用“<xliff:g id="APPLICATION">%1$s</xliff:g>”访问该 USB 设备吗？"</string>
+    <string name="usb_accessory_permission_prompt" msgid="5171775411178865750">"允许应用“<xliff:g id="APPLICATION">%1$s</xliff:g>”访问该 USB 配件吗？"</string>
+    <string name="usb_device_confirm_prompt" msgid="5161205258635253206">"要在连接此 USB 设备时打开<xliff:g id="ACTIVITY">%1$s</xliff:g>吗？"</string>
+    <string name="usb_accessory_confirm_prompt" msgid="3808984931830229888">"要在连接此 USB 配件时打开<xliff:g id="ACTIVITY">%1$s</xliff:g>吗？"</string>
+    <string name="usb_accessory_uri_prompt" msgid="513450621413733343">"未安装此 USB 配件适用的应用。要了解此配件的详情，请访问：<xliff:g id="URL">%1$s</xliff:g>"</string>
+    <string name="title_usb_accessory" msgid="4966265263465181372">"USB 配件"</string>
+
+    <string name="always_use_device" msgid="1450287437017315906">"默认情况下用于该 USB 设备"</string>
+    <string name="always_use_accessory" msgid="1210954576979621596">"默认情况下用于该 USB 配件"</string>
+    <string name="usb_debugging_title" msgid="4513918393387141949">"允许 USB 调试吗？"</string>
+    <string name="usb_debugging_message" msgid="2220143855912376496">"这台计算机的 RSA 密钥指纹如下：\n<xliff:g id="FINGERPRINT">%1$s</xliff:g>"</string>
+    <string name="usb_debugging_always" msgid="303335496705863070">"一律允许使用这台计算机进行调试"</string>
+    <string name="label_view" msgid="6304565553218192990">"查看"</string>
+
+    <string name="quick_btn">"快捷开关"</string>
+    <string name="self_define_quick_btn">"调整快捷开关位置"</string>
+    <string name="notification_panel">"通知显示"</string>
+    <string name="self_define_notification_panel">"显示或屏蔽应用通知"</string>
+    <string name="notification_block_setting_title">通知显示</string>
+    <string name="quick_button_setting_title">快捷开关设置</string>
+    <string name="quick_button_setting_divider_text">以上%1$d个开关显示在快捷开关</string>
+    <string name="shield_app_dialog_note">点击此按钮屏蔽来自该应用的通知。如果想恢复该应用的通知，请进入设置->通知。</string>
+    <string name="block_sms_dialog_note">点击此按钮屏蔽来自该号码的短信。如果想恢复该号码的短线，请进入安全中心->骚扰拦截。</string>
+    <string name="dialog_ok_text">知道了</string>
+    <string name="notification_tab_title">通知中心</string>
+    <string name="shutdown_toast">手机将要关机</string>
+    <string name="reboot_toast">手机将要重启</string>
+    <!-- for intterrut ui -->
+    <string name="tip_title">"防误触屏幕"</string>
+    <string name="tip_title_info">"请勿遮挡屏幕顶端"</string>
+    <string name="tip_title_sub">"红色"</string>
+    <string name="tip_content">"强制退出：\n同时按下“返回”和“音量+”"</string>
+    <string name="tip_content_desc">手机示意图</string>
+    <!--
+    <string name="mistake_touch_mode_setting">防误触模式</string>
+    <string name="do_not_disturb_mode_setting">勿打扰功能</string>
+    -->
+    <string name="recent_task_release_memory">加速成功，释放 %1$dM 内存</string>
+    <string name="recent_task_no_more_released">目前已无可优化的空间</string>
+    <string name="camera_in_use_text">相机正在使用,手电筒暂时无法使用</string>
+
+    <string name="sign_sec_warning_title">签名警告</string>
+    <string name="sign_sec_warning_message">未签名!</string>
+    <string name="sign_sec_warning_imei">非法 IMEI!</string>
+    <string name="sign_sec_warning_sn">未校准!</string>
+    
+</resources>

@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+ * Copyright (c) 2006, The Android Open Source Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+*/
+-->
+<resources>
+    <!-- Margin at the edge of the screen to ignore touch events for in the windowshade. -->
+    <dimen name="recent_pannel_height">98dp</dimen>
+    
+    
+    <!--  add by lulei for quick setting pannel -->
+    <dimen name="quick_setting_pannel_height">75dp</dimen>
+    <dimen name="quick_setting_icon_padding_top">0dp</dimen>
+    <dimen name="quick_icon_name_size">12sp</dimen>
+    <dimen name="network_name_text_size">14dp</dimen>
+
+    <!-- add by lulei for notication title -->
+    <dimen name="notification_title_height">80dp</dimen>
+    <dimen name="notification_title_padding">18dp</dimen>
+    <dimen name="notification_title_cleen_padding">16dp</dimen>
+    <dimen name="notification_title_text_size">15sp</dimen>
+    
+    <dimen name="polytopoly">21dp</dimen>
+    <dimen name="shadowLocation">20dp</dimen>
+    
+    <!-- add by lulei for diver -->
+    <dimen name="quick_pannel_notification_title_diver">1px</dimen>
+
+    <dimen name="status_bar_recents_app_icon_max_width">60dp</dimen>
+
+    <dimen name="quick_pannel_indicator_padding">8dp</dimen>
+    
+    <dimen name="nav_bar_horizontal_button_width">90dp</dimen>
+    <dimen name="nav_bar_three_button_paddingedge">15dp</dimen>
+
+    <dimen name="batterylow_content_fontsize">24dp</dimen>
+    
+	<dimen name="status_bar_icon_size">16dp</dimen>
+	<dimen name="status_bar_icon_margin">4dp</dimen>
+
+	<dimen name="battery_icon_level_margin">2.5dp</dimen>
+	<dimen name="battery_level_margin">6dp</dimen>
+
+	<dimen name="battery_percent_text_size">14px</dimen>	
+    <!-- Recent Applications parameters -->
+
+    <dimen name="status_bar_recents_app_icon_max_height">60dp</dimen>
+    <!-- Size of application thumbnail -->
+    <dimen name="status_bar_recents_thumbnail_width">250dp</dimen>
+    <dimen name="status_bar_recents_thumbnail_height">302dp</dimen>
+    <dimen name="status_bar_recents_thumbnail_bg_padding">4dp</dimen>
+    <!-- Size of application label text -->
+    <dimen name="status_bar_recents_app_label_text_size">14dip</dimen>
+    <!-- Size of application description text -->
+    <dimen name="status_bar_recents_app_description_text_size">14dip</dimen>
+    <!-- Margin between recents container and glow on the right -->
+    <dimen name="status_bar_recents_right_glow_margin">100dip</dimen>
+    <!-- added by chao.lc  begin--> 
+    
+    <!-- Size of fading edge for text -->
+    <dimen name="status_bar_recents_text_fading_edge_length">20dip</dimen>
+    <!-- Size of fading edge for scrolling -->
+    <dimen name="status_bar_recents_scroll_fading_edge_length">10dip</dimen>
+        <!-- How far the thumbnail for a recent app appears from left edge -->
+    <!-- Margin between recents container and glow on the right -->
+   <dimen name="status_bar_recents_thumbnail_left_margin">20dp</dimen>
+    <!-- Padding for text descriptions -->
+    <!-- YUNOS BEGIN -->
+    <!-- ##module(Systemui recent)
+         ##date:2013-11-20 ##author:haiyan.tan@aliyun-inc.com
+     -->
+    <dimen name="status_bar_recents_text_description_padding">0dp</dimen>
+    <!-- YUNOS END -->
+    <!-- Width of application label text -->
+    <dimen name="status_bar_recents_app_label_width">60dip</dimen>
+    <!-- Left margin of application label text -->
+    <dimen name="status_bar_recents_app_label_left_margin">0dip</dimen>
+    <!-- Padding between recents items -->
+    <dimen name="status_bar_recents_item_padding">0dip</dimen>
+    <!-- When recents first appears, how far the icon and label of the primary activity
+         travel -->
+    <dimen name="status_bar_recents_app_icon_translate_distance">35dip</dimen>
+   <!-- Where to place the app icon over the thumbnail -->
+    <dimen name="status_bar_recents_app_icon_left_margin">0dp</dimen>
+    <dimen name="status_bar_recents_app_icon_top_margin">8dp</dimen>
+    
+    <!-- Top margin of stop icon -->
+    <dimen name="status_bar_recents_app_stop_icon_top_margin">8dp</dimen>
+    <!-- YUNOS BEGIN -->
+    <!-- ##module(Systemui recent)
+         ##date:2013-11-20 ##author:haiyan.tan@aliyun-inc.com
+    -->
+    <dimen name="status_bar_recents_app_icon_bottom_margin">0dp</dimen>
+    <!-- YUNOS END -->    
+    <!-- the size of the app icon-->
+    <dimen name="app_icon_size">48dip</dimen>
+    <!-- added by chao.lc  end --> 
+
+    <!-- thickness (height) of the navigation bar on phones that require it -->
+    <dimen name="navigation_bar_size">@*android:dimen/navigation_bar_height</dimen>
+
+    <!-- thickness (height) of the dead zone at the top of the navigation bar,
+         reducing false presses on navbar buttons; approx 2mm -->
+    <dimen name="navigation_bar_deadzone_size">12dp</dimen>
+
+    <!-- thickness (height) of each notification row, including any separators or padding -->
+    <dimen name="notification_height">80dp</dimen>
+
+    <!-- Height of notification icons in the status bar -->
+<!--     <dimen name="status_bar_icon_size">@*android:dimen/status_bar_icon_size</dimen> -->
+
+
+
+    <!-- Height of a small notification in the status bar plus glow, padding, etc -->
+    <dimen name="notification_row_min_height">70dp</dimen>
+
+    <!-- Height of a large notification in the status bar plus glow, padding, etc -->
+    <dimen name="notification_row_max_height">260dp</dimen>
+    <!-- size at which Notification icons will be drawn in the status bar -->
+    <dimen name="status_bar_icon_drawing_size">16dip</dimen>
+
+
+    <!-- gap on either side of status bar notification icons -->
+    <dimen name="status_bar_icon_padding">4dp</dimen>
+
+    <!-- thickness (height) of dividers between each notification row -->
+    <dimen name="notification_divider_height">2px</dimen>
+
+    <!-- Notification drawer tuning parameters (phone UI) -->
+    <!-- Initial velocity of the shade when expanding on its own -->
+    <dimen name="self_expand_velocity">2000dp</dimen>
+    <!-- Initial velocity of the shade when collapsing on its own -->
+    <!-- YUNOS BEGIN ##BugID:120121 -->
+    <!-- ##2014/05/15 ##author: junlin.tjl@alibaba-inc.com -->
+    <!-- NotificationCentre collapse time is long than 300ms -->
+    <dimen name="self_collapse_velocity">16000dp</dimen>
+    <!-- YUNOS_END ##BugID:120121 -->
+    <!-- Minimum final velocity of gestures interpreted as expand requests -->
+    <dimen name="fling_expand_min_velocity">200dp</dimen>
+    <!-- Minimum final velocity of gestures interpreted as collapse requests -->
+    <dimen name="fling_collapse_min_velocity">200dp</dimen>
+    <!-- Cap on contribution of x dimension of gesture to overall velocity -->
+    <dimen name="fling_gesture_max_x_velocity">200dp</dimen>
+    <!-- Cap on overall resulting fling speed (s^-1) -->
+    <dimen name="fling_gesture_max_output_velocity">3000dp</dimen>
+
+    <!-- Minimum distance a fling must travel (anti-jitter) -->
+    <dimen name="fling_gesture_min_dist">20dp</dimen>
+
+    <!-- Minimum fraction of the display a gesture must travel, at any velocity, to qualify as a
+         collapse request -->
+    <item type="dimen" name="collapse_min_display_fraction">10%</item>
+    <!-- Minimum fraction of the display a gesture must travel to qualify as an expand request -->
+    <item type="dimen" name="expand_min_display_fraction">50%</item>
+
+    <!-- Initial acceleration of an expand animation after fling -->
+    <dimen name="expand_accel">2000dp</dimen>
+    <!-- Initial acceleration of an collapse animation after fling -->
+    <dimen name="collapse_accel">2000dp</dimen>
+
+    <!-- The padding on the global screenshot background image -->
+    <dimen name="global_screenshot_bg_padding">20dp</dimen>
+    <!-- Height of the draggable handle at the bottom of the phone notification panel -->
+    <dimen name="close_handle_height">20dp</dimen>
+
+    <!-- Amount of close_handle that will NOT overlap the notification list -->
+    <dimen name="close_handle_underlap">24dp</dimen>
+
+    <!-- Extra space above the panel -->
+    <dimen name="notification_panel_padding_top">24dp</dimen>
+
+
+    <!-- Layout parameters for the notification panel -->
+    <dimen name="notification_panel_margin_left">0dp</dimen>
+    <!-- Fraction of the status bar that, when dragged, will produce the quick settings panel
+         instead of the notification panel. See also @dimen/settings_panel_dragzone_min.
+         If zero, the settings panel will not be directly draggable from the status bar. -->
+    <item type="dimen" name="settings_panel_dragzone_fraction">0%</item>
+
+    <!-- Quick settings dragzone, if used, should be at least this big (may be zero). -->
+    <dimen name="settings_panel_dragzone_min">100dp</dimen>
+
+    <dimen name="blinds_pop_threshold">32dp</dimen>
+
+    <!-- The size of the gesture span needed to activate the "pull" notification expansion -->
+    <dimen name="pull_span_min">25dp</dimen>
+
+    <!-- How far to slide the panel out when you touch it -->
+    <!-- For phones, this is close_handle_height + header_height -->
+    <dimen name="peek_height">24dp</dimen>
+    
+    <!-- Layout parameters for the notification setting -->
+    <dimen name="notification_setting_margin_left">5dp</dimen>
+    <!-- menu size of the dropDownDrawer -->
+    <dimen name="dropDownDrawer_menu_size">156dp</dimen>
+        <!-- menu size of the notification row -->
+    <dimen name="notificaton_row_menu_size">67dp</dimen>
+    
+    <!-- for AliIconToggleButton -->
+    <dimen name="toggleButton_preference_icon_width">36dp</dimen>
+   	<dimen name="toggleButton_preference_icon_height">36dp</dimen>
+   	<dimen name="toggleButton_preference_icon_marginLeft">10dp</dimen>
+    <dimen name="app_label_max_width">88dp</dimen>
+    
+    <dimen name="talkingbar_height">26dp</dimen>
+    <!--YUNOS BEGIN-->
+    <!--##modules(systemui recent): progress bar width-->
+    <!--##date:2013-11-18 ##author:yun.yangyun@aliyun-inc.com-->
+    <!--yunos systemui arc default values-->
+    <dimen name="default_arc_width">2dp</dimen>
+    <!--YUNOS_END-->
+    <dimen name="quick_setting_item_height">50dp</dimen>
+
+    <dimen name="data_pannel_margin_vertical">20dp</dimen>
+    
+    <dimen name="data_pannel_margin_vertical2">19dp</dimen>
+
+    <dimen name="data_pannel_height">60dp</dimen>
+    <dimen name="toast_step_y">-64dp</dimen>
+
+    <!-- dialog animation -->
+    <integer name="hw_dialog_animation_duration">400</integer>
+
+    <dimen name="quick_buttion_grid_item_width">90dp</dimen>
+    <dimen name="quick_buttion_grid_item_height">110dp</dimen>
+    <dimen name="quick_buttion_grid_item_image_size">40dp</dimen>
+    <dimen name="quick_buttion_grid_item_image_margin_top">24dp</dimen>
+    <dimen name="quick_buttion_grid_item_text_margin_top">10dp</dimen>
+    <dimen name="quick_buttion_grid_item_text_margin_bottom">21dp</dimen>
+
+
+    <dimen name="week_title_text_size">12sp</dimen>
+    <dimen name="calendar_line_margin">4dp</dimen>
+    <dimen name="tab_height">50dp</dimen>
+    
+    <!-- support card icon -->
+    <dimen name="bubble_icon_width">54dp</dimen>
+    <dimen name="icon_text_size">12dp</dimen>
+    <!-- date:2014/03/26 ##author: kerong.skr@alibaba-inc.com ##BugID:104683 for AliSystemUI -->
+    <dimen name="workspace_cell_width">76dp</dimen>
+    <dimen name="workspace_cell_height">96dp</dimen>
+    <!-- date:2014/03/24 ##author: junlin.tjl@alibaba-inc.com ##BugID:103321 for AliSystemUI -->
+    <dimen name="notification_icon_size">48dp</dimen>
+    <dimen name="finger_width">38dp</dimen>
+
+    <!-- opacity at which Notification icons will be drawn in the status bar -->
+    <item type="dimen" name="status_bar_icon_drawing_alpha">75%</item>
+    <!--YUNOS BEGIN-->
+    <!--##modules(systemui status bar): battery percent-->
+    <!--##date:2013-11-18 ##author:sunchen.sc@aliyun-inc.com-->
+    <dimen name="battery_percent_padding_right1">3dp</dimen>
+    <dimen name="battery_percent_padding_right2">5dp</dimen>
+    <dimen name="battery_percent_padding_right3">2dp</dimen>
+    <dimen name="battery_percent_padding_right4">4dp</dimen>
+    <!--YUNOS END-->
+    <dimen name="ICON_TRASLATE_HEIGHT">300dp</dimen>
+    <!-- for interrupt ui -->
+    <dimen name="tip_title_size">16dp</dimen>
+    <dimen name="tip_title_info_size">24dp</dimen>
+<!--    <dimen name="tip_title_line_height">8dp</dimen> -->
+    <dimen name="tip_size">12dp</dimen>
+    <dimen name="tip_line_spacing">16dp</dimen>
+    <dimen name="tip_title_padding_top">83dp</dimen>
+    <dimen name="tip_icon_padding_bottom">60dp</dimen>
+    <dimen name="tip_arrow_padding_bottom">20dp</dimen>
+    <dimen name="tip_arrow_padding_top">26dp</dimen>
+    <dimen name="overphone_text_padding_top">320dp</dimen>
+    <dimen name="time_padding_top">2.3333dp</dimen>
+    <dimen name="mobile_data_used_percent">15sp</dimen>
+    <dimen name="battery_percent_padding_left1">-2dp</dimen>
+</resources>

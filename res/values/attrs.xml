@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- YUNOS_PROJECT modified by modules(systemui recent) -->
+<!--
+     Copyright (C) 2010 The Android Open Source Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <declare-styleable name="KeyButtonView">
+
+        <!-- key code to send when pressed; if absent or 0, no key is sent -->
+        <attr name="keyCode" format="integer" />
+        <!-- does this button generate longpress / repeat events? -->
+        <attr name="keyRepeat" format="boolean" />
+        <!-- drawable to use for a swelling, glowing background on press -->
+        <attr name="glowBackground" format="reference" />
+        <!-- does the key has duobleclick -->
+        <attr name="keyDoubleClick" format="boolean" />
+        <!-- key double click code ,default is 0 -->
+        <attr name="keyDoubleCode">
+            <flag name="cloud_key_double_click" value="1" />
+            <flag name="home_key_double_click" value="2" />
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="NotificationRowLayout">
+        <attr name="rowHeight" format="dimension" />
+    </declare-styleable>
+
+    <!-- added by chao.lc -->
+    <declare-styleable name="RecentsPanelView">
+        <attr name="recentItemLayout" format="reference" />
+    </declare-styleable>
+    <!-- YUNOS BEGIN -->
+    <!-- ##modules(systemui recent): progress bar color -->
+    <!-- ##date:2013-11-18 ##author:yun.yangyun@aliyun-inc.com -->
+    <declare-styleable name="AliArc">
+        <attr name="arcWidth" format="dimension" />
+        <attr name="rectWidth" format="dimension" />
+        <attr name="arcColor" format="color" />
+        <attr name="rimColor" format="color" />
+        <attr name="healthColor" format="color" />
+        <attr name="warningColor" format="color" />
+        <attr name="dangerousColor" format="color" />
+    </declare-styleable>
+    <!-- YUNOS_END -->
+    <declare-styleable name="CircleProgressBar">
+        <attr name="radius" format="dimension" />
+        <attr name="strokeWidth" format="dimension" />
+        <attr name="circleColor" format="color" />
+        <attr name="ringColor" format="color" />
+    </declare-styleable>
+
+</resources>

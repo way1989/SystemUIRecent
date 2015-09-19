@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <alpha
+        android:duration="1000"
+        android:fromAlpha="0.7"
+        android:repeatCount="-1"
+        android:repeatMode="restart"
+        android:startOffset="667"
+        android:toAlpha="1.0" />
+    <alpha
+        android:duration="667"
+        android:fromAlpha="1.0"
+        android:repeatCount="-1"
+        android:repeatMode="restart"
+        android:startOffset="1000"
+        android:toAlpha="0.7" />
+
+</set>
+

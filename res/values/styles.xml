@@ -1,0 +1,37 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:windowAnimationStyle">@style/Animation.RecentsActivity</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <style name="Animation.RecentsActivity" parent="@android:style/Animation">
+        <item name="android:activityOpenEnterAnimation">@anim/recents_launch_from_launcher_enter</item>
+        <item name="android:activityOpenExitAnimation">@anim/recents_launch_from_launcher_exit</item>
+        <item name="android:taskOpenEnterAnimation">@anim/recents_launch_from_launcher_enter</item>
+        <item name="android:taskOpenExitAnimation">@anim/recents_launch_from_launcher_exit</item>
+        <item name="android:taskToFrontEnterAnimation">@anim/recents_launch_from_launcher_enter</item>
+        <item name="android:taskToFrontExitAnimation">@anim/recents_launch_from_launcher_exit</item>
+        <item name="android:wallpaperOpenEnterAnimation">@anim/recents_launch_from_launcher_enter</item>
+        <item name="android:wallpaperOpenExitAnimation">@anim/recents_launch_from_launcher_exit</item>
+        <item name="android:wallpaperIntraOpenEnterAnimation">@anim/wallpaper_recents_launch_from_launcher_enter</item>
+        <item name="android:wallpaperIntraOpenExitAnimation">@anim/wallpaper_recents_launch_from_launcher_exit</item>
+    </style>
+
+</resources>
